@@ -84,3 +84,7 @@ body{
     box-shadow: 7px 0 5px 0 rgba(0,0,0,0.3), inset 2px 0 15px 0 rgba(0,0,0,0.1);
   }
 }
+
+audio{
+  margin-top: 20px;
+}

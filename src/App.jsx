@@ -1,6 +1,7 @@
 import './App.css'
 import Confetti from 'react-confetti'
 import { useReward } from 'react-rewards'
+import audio from './audio.mp3'
 
 function App() {
   const {reward} = useReward('rewardId', 'balloons');
@@ -30,6 +31,7 @@ function App() {
       </div>
     </div>
     <Confetti />
+    <center><audio src={audio} controls autoPlay/></center>
     </>
   )
 }
